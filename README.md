@@ -5,6 +5,23 @@ using paypal rest api NPM package
 Paypal Payout API: we can transfer money to multiple parties.
 
 
+
+##  Prerequisites
+
+To run the application you need Node.js and Node packages manager installed.
+
+``` 
+npm install
+```
+
+- To run the payout api file on Node.js console
+
+```
+coffee payout/payout.coffee -n
+```
+
+
+
 ```CoffeeScript
 ##way to call Payout.create()
 receivers = [
@@ -25,26 +42,3 @@ payoutInst = new Payout #create instance of Payout class
 console.log payoutInst.create(receivers) #call the method to transfer money to multiple/single party
 ```
 
-
-
-
-## Dependencies
-
-``` 
-npm install
-```
-
-Install Paypal rest api:
-```
-npm install paypal-rest-sdk --save
-
-- To test the payout
-
-```
-node js/payout.js
-```
-
-or test directly: 
-```
-node test_payout.js
-```
