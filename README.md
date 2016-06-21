@@ -1,6 +1,6 @@
 Samples for PayPal-Payout
 ===========================
-using paypal rest api NPM package
+Using paypal rest api NPM package
 
 Paypal Payout API: we can transfer money to multiple parties.
 
@@ -8,7 +8,7 @@ Paypal Payout API: we can transfer money to multiple parties.
 
 ##  Prerequisites
 
-To run the application you need Node.js and Node packages manager installed.
+- To run the application you need Node.js and Node packages manager installed.
 
 ``` 
 npm install
@@ -21,6 +21,7 @@ coffee payout/payout.coffee -n
 ```
 
 
+- To make payment to mulitple parties, call Payout.create()
 
 ```CoffeeScript
 ##way to call Payout.create()
