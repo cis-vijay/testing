@@ -14,12 +14,15 @@ Paypal Payout API: we can transfer money to multiple parties.
 npm install
 ```
 
+##  Run 
+
 - To run the payout api file on Node.js console
 
 ```
 coffee payout/payout.coffee -n
 ```
 
+##  Use of payout methods
 
 - To make payment to mulitple parties, call Payout.create()
 
@@ -39,7 +42,7 @@ receivers = [
          'email': 'shirt-supplier-three@mail.com'
        }
      ]
-payoutInst = new Payout #create instance of Payout class
+payoutObj = new Payout #create instance of Payout class
 console.log payoutInst.create(receivers) #call the method to transfer money to multiple/single party
 ```
 
