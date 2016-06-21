@@ -6,7 +6,7 @@ Paypal Payout API: we can transfer money to multiple parties.
 
 
 
-##  Prerequisites
+###  Prerequisites
 
 - To run the application you need Node.js and Node packages manager installed.
 
@@ -14,7 +14,7 @@ Paypal Payout API: we can transfer money to multiple parties.
 npm install
 ```
 
-##  Run 
+###  Run 
 
 - To run the payout api file on Node.js console
 
@@ -22,7 +22,7 @@ npm install
 coffee payout/payout.coffee -n
 ```
 
-##  Use of payout methods
+###  Use of payout methods
 
 - To make payment to mulitple parties, call Payout.create()
 
